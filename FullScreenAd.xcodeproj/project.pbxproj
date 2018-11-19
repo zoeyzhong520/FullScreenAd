@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3613D2C221A266E000B6739F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2C121A266E000B6739F /* AppDelegate.m */; };
+		3613D2C521A266E000B6739F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2C421A266E000B6739F /* ViewController.m */; };
+		3613D2C821A266E000B6739F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3613D2C621A266E000B6739F /* Main.storyboard */; };
+		3613D2CA21A266E900B6739F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3613D2C921A266E900B6739F /* Assets.xcassets */; };
+		3613D2CD21A266E900B6739F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3613D2CB21A266E900B6739F /* LaunchScreen.storyboard */; };
+		3613D2D021A266E900B6739F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2CF21A266E900B6739F /* main.m */; };
+		3613D2DA21A266E900B6739F /* FullScreenAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2D921A266E900B6739F /* FullScreenAdTests.m */; };
+		3613D2E521A266E900B6739F /* FullScreenAdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2E421A266E900B6739F /* FullScreenAdUITests.m */; };
+		3613D2F521A2676300B6739F /* FullScreenAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613D2F421A2676300B6739F /* FullScreenAdView.m */; };
+		DF26ED48788B6443A1BAE2D4 /* Pods_FullScreenAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0033B52318B348555FDBE45C /* Pods_FullScreenAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3613D2D621A266E900B6739F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3613D2B521A266DF00B6739F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3613D2BC21A266E000B6739F;
+			remoteInfo = FullScreenAd;
+		};
+		3613D2E121A266E900B6739F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3613D2B521A266DF00B6739F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3613D2BC21A266E000B6739F;
+			remoteInfo = FullScreenAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0033B52318B348555FDBE45C /* Pods_FullScreenAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullScreenAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613D2BD21A266E000B6739F /* FullScreenAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613D2C021A266E000B6739F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3613D2C121A266E000B6739F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3613D2C321A266E000B6739F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3613D2C421A266E000B6739F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3613D2C721A266E000B6739F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3613D2C921A266E900B6739F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3613D2CC21A266E900B6739F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3613D2CE21A266E900B6739F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3613D2CF21A266E900B6739F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3613D2D521A266E900B6739F /* FullScreenAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613D2D921A266E900B6739F /* FullScreenAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenAdTests.m; sourceTree = "<group>"; };
+		3613D2DB21A266E900B6739F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3613D2E021A266E900B6739F /* FullScreenAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613D2E421A266E900B6739F /* FullScreenAdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenAdUITests.m; sourceTree = "<group>"; };
+		3613D2E621A266E900B6739F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3613D2F321A2676300B6739F /* FullScreenAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenAdView.h; sourceTree = "<group>"; };
+		3613D2F421A2676300B6739F /* FullScreenAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenAdView.m; sourceTree = "<group>"; };
+		7B96D3FAD4A8EFA5FA766A29 /* Pods-FullScreenAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenAd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullScreenAd/Pods-FullScreenAd.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D38049C7E2455A960335BD /* Pods-FullScreenAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenAd.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullScreenAd/Pods-FullScreenAd.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3613D2BA21A266E000B6739F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF26ED48788B6443A1BAE2D4 /* Pods_FullScreenAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2D221A266E900B6739F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2DD21A266E900B6739F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3613D2B421A266DF00B6739F = {
+			isa = PBXGroup;
+			children = (
+				3613D2BF21A266E000B6739F /* FullScreenAd */,
+				3613D2D821A266E900B6739F /* FullScreenAdTests */,
+				3613D2E321A266E900B6739F /* FullScreenAdUITests */,
+				3613D2BE21A266E000B6739F /* Products */,
+				7A93341CA00DBD972890E687 /* Pods */,
+				6F21C321F66F17898E6A0402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3613D2BE21A266E000B6739F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3613D2BD21A266E000B6739F /* FullScreenAd.app */,
+				3613D2D521A266E900B6739F /* FullScreenAdTests.xctest */,
+				3613D2E021A266E900B6739F /* FullScreenAdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3613D2BF21A266E000B6739F /* FullScreenAd */ = {
+			isa = PBXGroup;
+			children = (
+				3613D2F221A2675500B6739F /* FullScreenAdView */,
+				3613D2C021A266E000B6739F /* AppDelegate.h */,
+				3613D2C121A266E000B6739F /* AppDelegate.m */,
+				3613D2C321A266E000B6739F /* ViewController.h */,
+				3613D2C421A266E000B6739F /* ViewController.m */,
+				3613D2C621A266E000B6739F /* Main.storyboard */,
+				3613D2C921A266E900B6739F /* Assets.xcassets */,
+				3613D2CB21A266E900B6739F /* LaunchScreen.storyboard */,
+				3613D2CE21A266E900B6739F /* Info.plist */,
+				3613D2CF21A266E900B6739F /* main.m */,
+			);
+			path = FullScreenAd;
+			sourceTree = "<group>";
+		};
+		3613D2D821A266E900B6739F /* FullScreenAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				3613D2D921A266E900B6739F /* FullScreenAdTests.m */,
+				3613D2DB21A266E900B6739F /* Info.plist */,
+			);
+			path = FullScreenAdTests;
+			sourceTree = "<group>";
+		};
+		3613D2E321A266E900B6739F /* FullScreenAdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3613D2E421A266E900B6739F /* FullScreenAdUITests.m */,
+				3613D2E621A266E900B6739F /* Info.plist */,
+			);
+			path = FullScreenAdUITests;
+			sourceTree = "<group>";
+		};
+		3613D2F221A2675500B6739F /* FullScreenAdView */ = {
+			isa = PBXGroup;
+			children = (
+				3613D2F321A2676300B6739F /* FullScreenAdView.h */,
+				3613D2F421A2676300B6739F /* FullScreenAdView.m */,
+			);
+			path = FullScreenAdView;
+			sourceTree = "<group>";
+		};
+		6F21C321F66F17898E6A0402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0033B52318B348555FDBE45C /* Pods_FullScreenAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A93341CA00DBD972890E687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B96D3FAD4A8EFA5FA766A29 /* Pods-FullScreenAd.debug.xcconfig */,
+				A9D38049C7E2455A960335BD /* Pods-FullScreenAd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3613D2BC21A266E000B6739F /* FullScreenAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3613D2E921A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAd" */;
+			buildPhases = (
+				9DD899E96996218D503A7101 /* [CP] Check Pods Manifest.lock */,
+				3613D2B921A266E000B6739F /* Sources */,
+				3613D2BA21A266E000B6739F /* Frameworks */,
+				3613D2BB21A266E000B6739F /* Resources */,
+				ED1C5B563F7507DFEF6006B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenAd;
+			productName = FullScreenAd;
+			productReference = 3613D2BD21A266E000B6739F /* FullScreenAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3613D2D421A266E900B6739F /* FullScreenAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3613D2EC21A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAdTests" */;
+			buildPhases = (
+				3613D2D121A266E900B6739F /* Sources */,
+				3613D2D221A266E900B6739F /* Frameworks */,
+				3613D2D321A266E900B6739F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3613D2D721A266E900B6739F /* PBXTargetDependency */,
+			);
+			name = FullScreenAdTests;
+			productName = FullScreenAdTests;
+			productReference = 3613D2D521A266E900B6739F /* FullScreenAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3613D2DF21A266E900B6739F /* FullScreenAdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3613D2EF21A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAdUITests" */;
+			buildPhases = (
+				3613D2DC21A266E900B6739F /* Sources */,
+				3613D2DD21A266E900B6739F /* Frameworks */,
+				3613D2DE21A266E900B6739F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3613D2E221A266E900B6739F /* PBXTargetDependency */,
+			);
+			name = FullScreenAdUITests;
+			productName = FullScreenAdUITests;
+			productReference = 3613D2E021A266E900B6739F /* FullScreenAdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3613D2B521A266DF00B6739F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ZZJ;
+				TargetAttributes = {
+					3613D2BC21A266E000B6739F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3613D2D421A266E900B6739F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3613D2BC21A266E000B6739F;
+					};
+					3613D2DF21A266E900B6739F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3613D2BC21A266E000B6739F;
+					};
+				};
+			};
+			buildConfigurationList = 3613D2B821A266DF00B6739F /* Build configuration list for PBXProject "FullScreenAd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3613D2B421A266DF00B6739F;
+			productRefGroup = 3613D2BE21A266E000B6739F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3613D2BC21A266E000B6739F /* FullScreenAd */,
+				3613D2D421A266E900B6739F /* FullScreenAdTests */,
+				3613D2DF21A266E900B6739F /* FullScreenAdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3613D2BB21A266E000B6739F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613D2CD21A266E900B6739F /* LaunchScreen.storyboard in Resources */,
+				3613D2CA21A266E900B6739F /* Assets.xcassets in Resources */,
+				3613D2C821A266E000B6739F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2D321A266E900B6739F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2DE21A266E900B6739F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DD899E96996218D503A7101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullScreenAd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1C5B563F7507DFEF6006B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FullScreenAd/Pods-FullScreenAd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullScreenAd/Pods-FullScreenAd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3613D2B921A266E000B6739F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613D2F521A2676300B6739F /* FullScreenAdView.m in Sources */,
+				3613D2C521A266E000B6739F /* ViewController.m in Sources */,
+				3613D2D021A266E900B6739F /* main.m in Sources */,
+				3613D2C221A266E000B6739F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2D121A266E900B6739F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613D2DA21A266E900B6739F /* FullScreenAdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3613D2DC21A266E900B6739F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3613D2E521A266E900B6739F /* FullScreenAdUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3613D2D721A266E900B6739F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3613D2BC21A266E000B6739F /* FullScreenAd */;
+			targetProxy = 3613D2D621A266E900B6739F /* PBXContainerItemProxy */;
+		};
+		3613D2E221A266E900B6739F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3613D2BC21A266E000B6739F /* FullScreenAd */;
+			targetProxy = 3613D2E121A266E900B6739F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3613D2C621A266E000B6739F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3613D2C721A266E000B6739F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3613D2CB21A266E900B6739F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3613D2CC21A266E900B6739F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3613D2E721A266E900B6739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3613D2E821A266E900B6739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3613D2EA21A266E900B6739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B96D3FAD4A8EFA5FA766A29 /* Pods-FullScreenAd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkidFunction.SkidFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3613D2EB21A266E900B6739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D38049C7E2455A960335BD /* Pods-FullScreenAd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkidFunction.SkidFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3613D2ED21A266E900B6739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FullScreenAd.FullScreenAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenAd.app/FullScreenAd";
+			};
+			name = Debug;
+		};
+		3613D2EE21A266E900B6739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FullScreenAd.FullScreenAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullScreenAd.app/FullScreenAd";
+			};
+			name = Release;
+		};
+		3613D2F021A266E900B6739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FullScreenAd.FullScreenAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullScreenAd;
+			};
+			name = Debug;
+		};
+		3613D2F121A266E900B6739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
+				INFOPLIST_FILE = FullScreenAdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FullScreenAd.FullScreenAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullScreenAd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3613D2B821A266DF00B6739F /* Build configuration list for PBXProject "FullScreenAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613D2E721A266E900B6739F /* Debug */,
+				3613D2E821A266E900B6739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3613D2E921A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613D2EA21A266E900B6739F /* Debug */,
+				3613D2EB21A266E900B6739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3613D2EC21A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613D2ED21A266E900B6739F /* Debug */,
+				3613D2EE21A266E900B6739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3613D2EF21A266E900B6739F /* Build configuration list for PBXNativeTarget "FullScreenAdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613D2F021A266E900B6739F /* Debug */,
+				3613D2F121A266E900B6739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3613D2B521A266DF00B6739F /* Project object */;
+}
